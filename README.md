@@ -62,34 +62,34 @@ message:
 
 Bruteforce attack.
 ```
-message: invictus
-shift: 10
+message: lqylfwxv
+shift: 3
 option: hack
-Guess #0: invictus
-Guess #1: hmuhbstr
-Guess #2: gltgarsq
-Guess #3: fksfzqrp
-Guess #4: ejreypqo
-Guess #5: diqdxopn
-Guess #6: chpcwnom
-Guess #7: bgobvmnl
-Guess #8: afnaulmk
-Guess #9: zemztklj
-Guess #10: ydlysjki
-Guess #11: xckxrijh
-Guess #12: wbjwqhig
-Guess #13: vaivpghf
-Guess #14: uzhuofge
-Guess #15: tygtnefd
-Guess #16: sxfsmdec
-Guess #17: rwerlcdb
-Guess #18: qvdqkbca
-Guess #19: pucpjabz
-Guess #20: otboizay
-Guess #21: nsanhyzx
-Guess #22: mrzmgxyw
-Guess #23: lqylfwxv
-Guess #24: kpxkevwu
-Guess #25: jowjduvt
+Guess #0: lqylfwxv
+Guess #1: kpxkevwu
+Guess #2: jowjduvt
+Guess #3: **invictus**
+Guess #4: hmuhbstr
+Guess #5: gltgarsq
+Guess #6: fksfzqrp
+Guess #7: ejreypqo
+Guess #8: diqdxopn
+Guess #9: chpcwnom
+Guess #10: bgobvmnl
+Guess #11: afnaulmk
+Guess #12: zemztklj
+Guess #13: ydlysjki
+Guess #14: xckxrijh
+Guess #15: wbjwqhig
+Guess #16: vaivpghf
+Guess #17: uzhuofge
+Guess #18: tygtnefd
+Guess #19: sxfsmdec
+Guess #20: rwerlcdb
+Guess #21: qvdqkbca
+Guess #22: pucpjabz
+Guess #23: otboizay
+Guess #24: nsanhyzx
+Guess #25: mrzmgxyw
 message: 
 ```
