@@ -68,7 +68,7 @@ option: hack
 Guess #0: lqylfwxv
 Guess #1: kpxkevwu
 Guess #2: jowjduvt
-Guess #3: **invictus**
+Guess #3: invictus
 Guess #4: hmuhbstr
 Guess #5: gltgarsq
 Guess #6: fksfzqrp
