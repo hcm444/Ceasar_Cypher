@@ -1,5 +1,8 @@
 import sys
 import string
+from random import randrange
+
+
 def main():
     menu()
 def menu():
@@ -16,20 +19,52 @@ def menu():
                     pass
                 else:
                     alphabet -= 26
-                Letter = chr(alphabet)
-                encrypt += Letter
+                newtext = chr(alphabet)
+                encrypt += newtext
         print(encrypt)
         menu()
     elif choice=="decode":
         decrypt = ""
         print(text)
-        for i1 in text:
-            if i1.isalpha():
-                alphabet = ord(i1) - shift
+        for j in text:
+            if j.isalpha():
+                alphabet = ord(j) - shift
                 if alphabet < ord("Z"):
                     alphabet += 26
-            new = chr(alphabet)
-            decrypt += new
+            newtext_2 = chr(alphabet)
+            decrypt += newtext_2
+        print(decrypt)
+        menu()
+    elif choice=="OTP encode":
+        encrypt = ""
+        print(text)
+        length = len(text)
+        pad = []
+        for i in text:
+            if i.isalpha():
+                random = randrange(10)
+                alphabet = ord(i) + random
+                pad.append(random)
+                if alphabet <= ord("z"):
+                    pass
+                else:
+                    alphabet -= 26
+                newtext = chr(alphabet)
+                encrypt += newtext
+        print(encrypt)
+        print(pad)
+        menu()
+    elif choice=="OTP decode":
+        decrypt = ""
+        print(text)
+        for j in text:
+            secret = int(input("Secret Key: "))
+            if j.isalpha():
+                alphabet = ord(j) - secret
+                if alphabet < ord("Z"):
+                    alphabet += 26
+            newtext_2 = chr(alphabet)
+            decrypt += newtext_2
         print(decrypt)
         menu()
     elif choice=="quit":
