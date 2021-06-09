@@ -1,10 +1,11 @@
 import sys
+import string
 def main():
     menu()
 def menu():
     text = input("message: ")
     shift = int(input("shift: "))
-    choice = input("choice: ")
+    choice = input("option: ")
     if choice=="encode":
         encrypt = ""
         print(text)
@@ -19,7 +20,7 @@ def menu():
                 encrypt += Letter
         print(encrypt)
         menu()
-    elif choice == "decode":
+    elif choice=="decode":
         decrypt = ""
         print(text)
         for i1 in text:
@@ -31,11 +32,24 @@ def menu():
             decrypt += new
         print(decrypt)
         menu()
-    elif choice == "quit":
+    elif choice=="quit":
         sys.exit
+    elif choice=="hack":
+        string_alphabet = string.ascii_lowercase
+        for character in range(26):
+            translated = ''
+            for symbol in text:
+                if symbol not in string_alphabet:
+                    translated += symbol
+                else:
+                    num = string_alphabet.find(symbol)
+                    num -= character
+                    if num < 0:
+                        num += len(string_alphabet)
+                    translated = "{0}{1}".format(translated,string_alphabet[num])
+            print('Guess #{}: {}'.format(character,translated))
     else:
         print("Select Appropriate Action")
         menu()
 main()
-
-#add comments
+# add comments
